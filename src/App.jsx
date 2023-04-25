@@ -20,8 +20,8 @@ function App() {
     </header>
 
     <main>
-        <section class="banner">
-
+        <section className='banner'>
+            
             <h1>GOURMET-COFFEE HOUSE</h1>
 
         </section>
