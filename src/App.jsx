@@ -40,7 +40,7 @@ function App() {
             </div>
         </section>
 
-        <section>
+        <section className='alegria'>
             <h2>Um bom café é o motivo de alegria!</h2>
         </section>
 
