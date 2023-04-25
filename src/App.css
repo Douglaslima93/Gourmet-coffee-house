@@ -58,3 +58,23 @@ header {
   text-shadow: 5px 3px 3px rgb(70, 59, 59);
   
 }
+
+/*--------*/
+
+.cidade {
+  width: 100%;
+  height: 50vh;
+}
+
+.cidade h2{
+  text-align: center;
+  padding: 10px;
+  color: darkgoldenrod;
+  margin-top: 20px;
+}
+
+.cidade p {
+  text-align: justify;
+  width: 80%;
+  margin: 50px auto;
+}

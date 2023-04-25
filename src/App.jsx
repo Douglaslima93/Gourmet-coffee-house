@@ -27,16 +27,17 @@ function App() {
         </section>
 
         <section>
-
+            <div className='cidade'>
             <h2>EXPERIMENTE O MELHOR CAFÉ DA CIDADE!</h2>
             <p>O café não é apenas uma simples bebida que foi preparada por alguém. O café é momento e nós mostraremos isso.
                 Frases como "Que tal tomarmos um café" ou até então "Vamos fazer um café?" são demonstrações de que um dos
                 momentos que mais reforçam os laços para com o próximo está finalmente para por acontecer. Fraco ou forte?
                 Com ou sem açucar? Você deseja açucar ou adoçante? Estas são frases que ouvimos em vários lugares. Em quase
-                todos os locais onde a pessoas há também café. Pareceos intrinsecos ao café. Aqui na <strong>Gourmet-Coffee House</strong>
-                serviremos para você com muito carinho o nosso querido e amado Amaro's Coffee diretamnete do nosso cafezal em 
+                todos os locais onde a pessoas há também café. Pareceos intrinsecos ao café. Aqui na <strong> Gourmet-Coffee House</strong> serviremos 
+                para você com muito carinho o nosso querido e amado Amaro's Coffee diretamnete do nosso cafezal em 
                 Minas Gerais. Para todos nós, café é coisa séria e merece todo o cuidado.
             </p>
+            </div>
         </section>
 
         <section>
