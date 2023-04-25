@@ -9,7 +9,8 @@ function App() {
   return (
       <div>
         <header>
-        <div>
+        <div className='menu-header'>
+            <img src='./img/coffee.png'/>
             <ul>
                 <li><a href="#informacoes">INFORMAÇÕES</a></li>
                 <li><a href="#contatos">CONTATOS</a></li>
