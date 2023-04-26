@@ -44,7 +44,7 @@ function App() {
             <h2>Um bom café é o motivo de alegria!</h2>
         </section>
 
-        <section>
+        <section className='cafe-gourmet'>
             <h2>O QUE É O CAFÉ GOURMET?</h2>
             <p>Segundo  a Metodologia de Avaliação Sensorial da SCA (Specialty Coffee Association), usada no mundo
                 todo, um café especial é todo aqule que atinge, no minimo, 80 pontos na escala de pontuação da Metodologia
@@ -56,7 +56,7 @@ function App() {
             </p>
         </section>
 
-        <section>
+        <section className='vida'>
             <h2>A vida só começa depois do café!</h2>
         </section>
 

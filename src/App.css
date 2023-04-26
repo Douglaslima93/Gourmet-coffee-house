@@ -61,19 +61,19 @@ header {
 
 /*--------*/
 
-.cidade {
+.cidade , .cafe-gourmet{
   width: 100%;
   height: 50vh;
 }
 
-.cidade h2{
+.cidade h2 , .cafe-gourmet h2{
   text-align: center;
   padding: 10px;
   color: darkgoldenrod;
   margin-top: 20px;
 }
 
-.cidade p {
+.cidade p , .cafe-gourmet p{
   text-align: justify;
   width: 80%;
   margin: 50px auto;
@@ -91,7 +91,7 @@ header {
   /*background-attachment: fixed;*/
 }
 
-.alegria h2{
+.alegria h2 , .vida h2{
   text-align: center;
   color: white;
   background-color: darkgoldenrod;
@@ -102,6 +102,20 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
+
+/*--------*/
+
+.vida{
+  background-image: url('../public/img/pexels-chevanon-photography-302899.jpg');
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*background-attachment: fixed;*/
+}
+
+/*--------*/
 
 
 
