@@ -2,7 +2,7 @@
 
 ## Com esse projeto pude aprimorar mais um pouco de conhecimento com react, e pude aprender a inserir a API no google maps e entender o se funcionamento, esse web site mostra uma pagina de uma cafeteria de forma dinâmica pois todas as imagens usam o efeito paralax através da função, "background-attachment: fixed" assim a pagina ficou mais atrativa para o usuario.
 
-## Tecnologia:
+## Tecnologia: <img align="center" alt="React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
 
 ### ![imagem1](https://user-images.githubusercontent.com/121909515/234681250-4dc7d2fb-bda9-4b90-beb9-ee8421d9b21a.png)
 ### ![imagem2](https://user-images.githubusercontent.com/121909515/234681275-31eaea60-3a20-488a-8caf-514d0e6c2204.png)
