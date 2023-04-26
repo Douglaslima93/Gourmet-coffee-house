@@ -241,7 +241,7 @@ header {
   
   .cidade p , .cafe-gourmet p, .conheca p{
     text-align: justify;
-    width: 100%;
+    width: 90%;
     margin: 50px auto;
     font-size: 15px;
   }
