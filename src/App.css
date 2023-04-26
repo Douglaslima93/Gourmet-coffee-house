@@ -61,19 +61,19 @@ header {
 
 /*--------*/
 
-.cidade , .cafe-gourmet{
+.cidade , .cafe-gourmet, .conheca{
   width: 100%;
   height: 50vh;
 }
 
-.cidade h2 , .cafe-gourmet h2{
+.cidade h2 , .cafe-gourmet h2, .conheca h2{
   text-align: center;
   padding: 10px;
   color: darkgoldenrod;
   margin-top: 20px;
 }
 
-.cidade p , .cafe-gourmet p{
+.cidade p , .cafe-gourmet p, .conheca p{
   text-align: justify;
   width: 80%;
   margin: 50px auto;
@@ -88,10 +88,10 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /*background-attachment: fixed;*/
+  background-attachment: fixed;
 }
 
-.alegria h2 , .vida h2{
+.alegria h2 , .vida h2 ,.contato-endereco h2{
   text-align: center;
   color: white;
   background-color: darkgoldenrod;
@@ -112,7 +112,40 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /*background-attachment: fixed;*/
+  background-attachment: fixed;
+}
+
+/*--------*/
+
+.mapa {
+  background-image: url('../public/img/pexels-ketut-subiyanto-4353573.jpg');
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.localizacao {
+  width: 100%;
+}
+
+.contato {
+  text-align: center;
+  color: white;
+  background-color: darkgoldenrod;
+  font-size: 20px;
+  transform: translate(0, 40vh);
+  text-shadow: 5px 3px 3px rgb(70, 59, 59);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contato p a {
+  text-decoration: none;
+  color: white;
 }
 
 /*--------*/

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import MapPage from './Pages/MapPage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -60,17 +61,29 @@ function App() {
             <h2>A vida só começa depois do café!</h2>
         </section>
 
-        <section>
-            <div>
+        <section className='conheca'>
+            <h2>CONHEÇA O CAFÉ GOURMET-COFFEE-HOUSE</h2>
+            <p>As caracteristicas desse tipo do café gourmet da <strong>Coffee House</strong> são muito marcantes.
+            O seu corpo vai depender da variedade do blend: quanto mais "pesado" ele for na boca, maior o corpo.
+            Quanto menor a sua pesagem menor o corpo. O nosso café gourmet é o mais bem avaliado no processo de produção,
+            para que ele não venha com nenhum tipo de defeito. O aroma é bem perceptivel e o consumidor consegue sentir nitidamente
+            , sendo que ele pode variar entre 4 aromas: florado, citrico, achocolatado, frutado. Essa variação são consequências
+            dos grãos do tipo Arábico. Tudo isso vai depender da torra, quanto mais clara ela for, maior será a acidez.</p>
+        </section>
+
+        <section className='mapa'>
+            <div className='contato-endereco'>
                 <h2>Contatos & Endereço</h2>
             </div>
 
-            <div>Localização</div>
+            <div className='localizacao'>
+                <MapPage/>
+            </div>
 
-            <div>
+            <div className='contato'>
                 <p>Telefone & Whatsapp: <a href="tel:+5515996017070">(15)99601-7070</a></p>
                 <p>E-mail:<a href="mailto:gourmet.coffeehouse@gmail.com">gourmet.coffeehouse@gmail.com</a></p>
-                <p>Endereço: Av Café Brasileiro, 1650 - Boituva - SP</p>
+                <p>Viale Europa, 32, 24048 Treviolo BG, Itália</p>
             </div>
         </section>
 
