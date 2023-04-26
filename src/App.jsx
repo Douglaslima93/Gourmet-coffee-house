@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import MapPage from './Pages/MapPage'
+import Tabela from './components/Tabela'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,7 +16,7 @@ function App() {
             <ul>
                 <li><a href="#informacoes">INFORMAÇÕES</a></li>
                 <li><a href="#contatos">CONTATOS</a></li>
-                <li><a href="horario">HORÁRIO</a></li>
+                <li><a href="#horario">HORÁRIO</a></li>
             </ul>
         </div>
     </header>
@@ -27,7 +28,7 @@ function App() {
 
         </section>
 
-        <section>
+        <section id='informacoes'>
             <div className='cidade'>
             <h2>EXPERIMENTE O MELHOR CAFÉ DA CIDADE!</h2>
             <p>O café não é apenas uma simples bebida que foi preparada por alguém. O café é momento e nós mostraremos isso.
@@ -71,7 +72,7 @@ function App() {
             dos grãos do tipo Arábico. Tudo isso vai depender da torra, quanto mais clara ela for, maior será a acidez.</p>
         </section>
 
-        <section className='mapa'>
+        <section className='mapa' id='contatos'>
             <div className='contato-endereco'>
                 <h2>Contatos & Endereço</h2>
             </div>
@@ -87,24 +88,23 @@ function App() {
             </div>
         </section>
 
-        <section>
+        <section className='funcionamento' id='horario'>
             <h2>HORÁRIO DE FUNCIONAMENTO</h2>
-            <ul>
-                <li>Segunda</li>
-                <li>Terça</li>
-                <li>Quarta</li>
-                <li>Quinta</li>
-                <li>Sexta</li>
-                <li>Sábado</li>
-                <li>Domingo</li>
-            </ul>
+            <div className='dias-horas'>
+            <Tabela/>
+            </div>
         </section>
 
-        <section>
+        <section className='rodape'>
             <footer>
                 <span>Gourmet - Coffee House - Todos os direitos reservados</span>
-                <p>Desenvolvido por: Douglas Lima</p>
-                <p>Link</p>
+                <p>Desenvolvido por: <strong>Douglas Lima</strong></p>
+                <div className='rede-social'>
+                <a href='https://www.linkedin.com/in/douglas-lima-95073aa2/'><img src='./img/linkedin.png'/></a>
+                <a href='https://github.com/Douglaslima93'><img src='./img/github.png'/></a>
+                <a className='seta' href=''><img src='./img/send-letter.png'/></a>
+                </div>
+                
             </footer>
         </section>
 
