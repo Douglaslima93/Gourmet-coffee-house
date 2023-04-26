@@ -5,3 +5,13 @@
     margin-right: auto;
     transform: translate(0,25vh);
 }
+
+@media only screen and (max-device-width: 500px) {
+    .map {
+        width: 70%;
+        height: 40vh;
+        margin-left: auto;
+        margin-right: auto;
+        transform: translate(0,18vh);
+    }
+}
