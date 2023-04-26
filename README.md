@@ -1,6 +1,6 @@
 # Gourmet Coffee House
 
-## Com esse projeto pude aprimorar mais um pouco de conhecimento com react, e pude aprender a inserir a API no google maps e entender o se funcionamento, esse web site mostra uma pagina de uma cafeteria de forma dinâmica pois todas as imagens usam o efeito paralax através da função, "background-attachment: fixed" assim a pagina ficou mais atrativa para o usuario.
+## Com esse projeto pude aprimorar mais um pouco de conhecimento com React, e pude aprender a inserir a API no google maps e entender o se funcionamento, esse web site mostra uma pagina de uma cafeteria de forma dinâmica pois todas as imagens usam o efeito parallax através da função, "background-attachment: fixed" assim a pagina ficou mais atrativa para o usuário.
 
 ## Tecnologia: <img align="center" alt="React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
 
